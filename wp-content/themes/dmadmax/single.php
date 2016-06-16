@@ -75,7 +75,19 @@ get_header(); ?>
                 </div>
          <?php endif; ?>
        </div>
-            <div class="entry<?php hreview_echo(' description'); ?>">   
+            <div class="entry
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- hdrguide 1 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:336px;height:280px"
+                 data-ad-client="ca-pub-0017098879698018"
+                 data-ad-slot="9471214558"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <?php hreview_echo(' description'); ?>">
            
        <?php
 if (in_category('reviews')):

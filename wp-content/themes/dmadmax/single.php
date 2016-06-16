@@ -131,6 +131,19 @@ endif; ?>
 endif; ?>    
 
             <?php the_content();?>
+
+            <div style="text-align: center; padding: 10px">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- hdrguide2 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:580px;height:400px"
+                 data-ad-client="ca-pub-0017098879698018"
+                 data-ad-slot="4901414153"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            </div>
+
             </div>
             <?php the_tags( '<ul class="tags"><li>', '</li><li>', '</li></ul>'); ?>
 

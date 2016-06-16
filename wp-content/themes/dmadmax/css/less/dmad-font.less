@@ -1,0 +1,251 @@
+/*  Font Awesome DMAD mod
+    the iconic font designed for use with Twitter Bootstrap
+    -------------------------------------------------------
+    The full suite of pictographic icons, examples, and documentation
+    can be found at: http://fortawesome.github.com/Font-Awesome/
+
+    License
+    -------------------------------------------------------
+    The Font Awesome webfont, CSS, and LESS files are licensed under CC BY 3.0:
+    http://creativecommons.org/licenses/by/3.0/ A mention of
+    'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable
+    source code is considered acceptable attribution (most common on the web).
+    If human readable source code is not available to the end user, a mention in
+    an 'About' or 'Credits' screen is considered acceptable (most common in desktop
+    or mobile software).
+
+    Contact
+    -------------------------------------------------------
+    Email: dave@davegandy.com
+    Twitter: http://twitter.com/fortaweso_me
+    Work: Lead Product Designer @ http://kyruus.com
+
+    */
+    
+@fontAwesomePath: '/fonts';
+
+@font-face {
+  font-family: 'DMAD';
+  src: url('@{fontAwesomePath}/DMAD.eot');
+  src: url('@{fontAwesomePath}/DMAD.eot?#iefix') format('embedded-opentype'),
+    url('@{fontAwesomePath}/DMAD.woff') format('woff'),
+    url('@{fontAwesomePath}/DMAD.ttf') format('truetype'),
+    url('@{fontAwesomePath}/DMAD.svg#DMAD') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: DMAD;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: middle;
+  font-size: 4/3em;
+}
+
+.btn, .nav-tabs {
+  [class^="icon-"],
+  [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+    line-height: .9em;
+  }
+}
+
+li {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
+  }
+  .icon-large:before,
+  .icon-large:before {
+    /* 1.5 increased font size for icon-large * 1.25 width */
+    width: 1.5*1.25em;
+  }
+}
+
+ul.icons {
+  list-style-type: none;
+  margin-left: 2em;
+  text-indent: -.8em;
+
+  li {
+    [class^="icon-"],
+    [class*=" icon-"] {
+      width: .8em;
+    }
+    .icon-large:before,
+    .icon-large:before {
+      /* 1.5 increased font size for icon-large * 1.25 width */
+      vertical-align: initial;
+//      width: 1.5*1.25em;
+    }
+  }
+}
+
+/*  DMAD Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+.icon-martini:before {
+	content: "\31";
+}
+.icon-search:before {
+	content: "\32";
+}
+.icon-comment-2:before {
+	content: "\33";
+}
+.icon-comments-2:before {
+	content: "\34";
+}
+.icon-mail:before {
+	content: "\6d";
+}
+.icon-arrow-down:before {
+	content: "\35";
+}
+.icon-beaker:before {
+	content: "\36";
+}
+.icon-settings:before {
+	content: "\38";
+}
+.icon-heart:before {
+	content: "\39";
+}
+.icon-camera:before {
+	content: "\6f";
+}
+.icon-time:before {
+	content: "\21";
+}
+.icon-stats:before {
+	content: "\40";
+}
+.icon-calendar:before {
+	content: "\2f";
+}
+.icon-pin:before {
+	content: "\2a";
+}
+.icon-rss:before {
+	content: "\52";
+}
+.icon-github:before {
+	content: "\28";
+}
+.icon-world:before {
+	content: "\77";
+}
+.icon-like:before {
+	content: "\6c";
+}
+.icon-unlike:before {
+	content: "\75";
+}
+.icon-comment:before {
+	content: "\3c";
+}
+.icon-comments:before {
+	content: "\3e";
+}
+.icon-email:before {
+	content: "\65";
+}
+.icon-download:before {
+	content: "\64";
+}
+.icon-facebook:before {
+	content: "\66";
+}
+.icon-facebook-2:before {
+	content: "\46";
+}
+.icon-twitter:before {
+	content: "\74";
+}
+.icon-twitter-2:before {
+	content: "\54";
+}
+.icon-pinterest:before {
+	content: "\50";
+}
+.icon-gplus-2:before {
+	content: "\47";
+}
+.icon-gplus:before {
+	content: "\67";
+}
+.icon-arrow-right:before {
+	content: "\4c";
+}
+.icon-star:before {
+	content: "\53";
+}
+.icon-plus:before {
+	content: "\2b";
+}
+.icon-minus:before {
+	content: "\2d";
+}
+.icon-checkmark:before {
+	content: "\5e";
+}
+.icon-cancel:before {
+	content: "\78";
+}
+.icon-arrow-right-2:before {
+	content: "\3d";
+}
+.icon-clock-time:before {
+	content: "\3f";
+}
+.icon-layers:before {
+	content: "\44";
+}
+.icon-cloud-download:before {
+	content: "\4a";
+}
+.icon-magic:before {
+	content: "\4d";
+}
+.icon-amp:before {
+	content: "\26";
+}
+.icon-left-quote:before {
+	content: "\27";
+}
+.icon-right-quote:before {
+	content: "\22";
+}
+.icon-wordpress:before {
+	content: "\57";
+}
+.icon-apple:before {
+	content: "\61";
+}
+.icon-summary:before {
+	content: "\73";
+}
+.icon-cloud:before {
+	content: "\23";
+}
+.icon-camera-2:before {
+	content: "\49";
+}

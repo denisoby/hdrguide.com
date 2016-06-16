@@ -1,0 +1,3 @@
+[13-Dec-2015 11:23:38 America/Detroit] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/hdrguide/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 36
+[13-Dec-2015 11:23:47 America/Detroit] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/hdrguide/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 36
+[29-Feb-2016 17:04:13 America/Detroit] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/hdrguide/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

@@ -1,0 +1,83 @@
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+
+
+.pagination {
+  height: @baseLineHeight * 2;
+  margin: @baseLineHeight 0;
+ }
+.pagination ul {
+  display: inline-block;
+  .ie7-inline-block();
+  margin-left: 0;
+  margin-bottom: 0;
+  .border-radius(3px);
+  .box-shadow(0 1px 2px rgba(0,0,0,.05));
+}
+.pagination ul > li {
+  display: inline;
+}
+.pagination ul > li > a,
+.pagination ul > li > span, .pager .previous > a, .pager .next > a {
+  float: left;
+  padding: 0 14px;
+  line-height: (@baseLineHeight * 2) - 2;
+  text-decoration: none;
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(211,211,211,1) 100%);
+border: 1px solid #f1f1f1;
+border-bottom: 1px solid #dbdbdb;
+box-shadow: inset 0 1px 0 rgba(255,255,255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.35);
+  border-left-width: 0;
+  margin-top:5px;
+}
+.pager .previous > a, .pager .next > a {line-height:30px;border-radius:5px; background:linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(250,250,250,1) 100%)}
+.pagination ul > li > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background: linear-gradient(top,  rgba(255,255,255,.8) 0%,rgba(211,211,211,.8) 100%);
+  border: 1px solid #f1f1f1;
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: inset 0 1px 0 rgba(255,255,255, 0.7), 0 1px 2px rgba(0, 0, 0, 0.35);
+  border-left-width: 0;
+}
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: @grayLight;
+  cursor: default;
+}
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover {
+  color: @grayLight;
+  background-color: transparent;
+  cursor: default;
+}
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  border-left-width: 1px;
+  .border-radius(3px 0 0 3px);
+}
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  .border-radius(0 3px 3px 0);
+}
+
+// Centered
+.pagination-centered {
+  text-align: center;
+}
+.pagination-right {
+  text-align: right;
+}
+// Max Added
+/*
+.pagination li a {
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(211,211,211,1) 100%);
+border: 1px solid #f1f1f1;
+border-bottom: 1px solid #dbdbdb;
+box-shadow: inset 0 1px 0 rgba(255,255,255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.35);
+border-radius: 5px;
+color:#333;
+font-weight:bold;
+} */

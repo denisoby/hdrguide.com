@@ -1,0 +1,126 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Short description.
+msgid "Simple URLs is a complete URL management system that allows you create, manage, and track outbound links from your site."
+msgstr ""
+
+#. Screenshot description.
+msgid "The URL management screen"
+msgstr ""
+
+#. Screenshot description.
+msgid "The URL create/edit screen"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Simple URLs is a complete URL management system that allows you create, manage, and track outbound links from your site by using custom post types and 301 redirects."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "It adds a new custom post type to your Admin menu, where you can create, edit, delete, and manage URLs. It stores click counts in the form of a custom field on that custom post type, so it scales really well."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "And by avoiding page based redirects, which is the current trend in masking affiliate links, we avoid any issues with permalink conflicts, and therefore avoid any performance issues."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the entire <code>simple-urls</code> folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "DO NOT change the name of the <code>simple-urls</code> folder"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to <code>Settings &gt; Permalinks</code> and save them. Yes, just click save. Trust me."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the <code>Simple URLs</code> menu"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Create a new URL, or manage existing URLs."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Publish and use the URLs however you want!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add plugin header i18n"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add textdomain loader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed messages and labels."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated textdomain."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Generated POT file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed saving bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed capability line from the register function. Users with permission to edit posts can create/edit URLs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped to show compatibility with WordPress 3.0.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a type in the plugin URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped to show compatibility with WordPress 3.0.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with URLs with ampersands in them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>'with_front' =&gt; false</code> to the post type registration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial Beta Release"
+msgstr ""
+
+#. Found in faq header.
+msgid "When I try to access my new URL, I'm getting a 404 (not found) error"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I change the URL structure to use something other than /go/ ???"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Sounds like you didn't follow the installation instructions :-)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Navigate to <code>Settings &gt; Permalinks</code> and save them. No need to change anything, just click the save button."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, not without modifying the plugin."
+msgstr ""

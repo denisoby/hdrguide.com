@@ -37,11 +37,15 @@
     <div class="navbar navbar-inverse navbar-relative-top">
            <div class="navbar-inner">
              <div class="container">
+           <div style="float:left">
+            <a href="https://store.stuckincustoms.com/complete-hdr-tutorial?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="http://hdrguide.com/wp-content/uploads/2013/04/hdr-video-tutorial.jpg" width="300" height="250"/></a>
+           </div>
            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <div style="float: right">
           <?php
            /** Loading WordPress Custom Menu  **/
            wp_nav_menu( array(
@@ -52,6 +56,7 @@
               'menu_id' => 'main-menu',
               'walker' => new Bootstrapwp_Walker_Nav_Menu()
           ) ); ?>
+          </div>
         </div>
       </div>
     </div>

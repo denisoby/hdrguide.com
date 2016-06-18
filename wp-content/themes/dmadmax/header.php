@@ -38,11 +38,11 @@
            <div class="navbar-inner">
              <div class="container">
            <div style="float:left;">
-            <div style="float:left;">
+            <div style="float: left; padding: 10px 0; width: 250px">
                 <a href="https://store.stuckincustoms.com/complete-hdr-tutorial?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="http://hdrguide.com/wp-content/uploads/2013/04/hdr-video-tutorial.jpg" width="300" height="250"/></a>
             </div>
-            <div style="float: left; padding: 10px 50px">
-                <a href="https://store.stuckincustoms.com/art-of-photography?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img style="height:250px" src="https://store.stuckincustoms.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/store_ad_-_beginning_photography_tutorial.jpg"/></a>
+            <div style="float: left; padding: 10px 50px; width: 250px">
+                <a href="https://store.stuckincustoms.com/art-of-photography?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="https://store.stuckincustoms.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/store_ad_-_beginning_photography_tutorial.jpg"/></a>
             </div>
            </div>
            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

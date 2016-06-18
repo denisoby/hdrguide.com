@@ -38,7 +38,7 @@
            <div class="navbar-inner">
              <div class="container">
            <div style="float:left;">
-            <div style="float: left; padding: 10px 0; width: 250px">
+            <div style="float: left; padding: 10px 0;">
                 <a href="https://store.stuckincustoms.com/complete-hdr-tutorial?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="http://hdrguide.com/wp-content/uploads/2013/04/hdr-video-tutorial.jpg" width="300" height="250"/></a>
             </div>
             <div style="float: left; padding: 10px 50px; width: 250px">

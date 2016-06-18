@@ -37,7 +37,7 @@
     <div class="navbar navbar-inverse navbar-relative-top">
            <div class="navbar-inner">
              <div class="container">
-           <div style="float:left">
+           <div style="float:left; padding: 5px 5px 5px 0">
             <a href="https://store.stuckincustoms.com/complete-hdr-tutorial?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="http://hdrguide.com/wp-content/uploads/2013/04/hdr-video-tutorial.jpg" width="300" height="250"/></a>
            </div>
            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

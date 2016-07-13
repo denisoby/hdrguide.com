@@ -76,6 +76,8 @@ get_header(); ?>
          <?php endif; ?>
        </div>
             <div class="entry<?php hreview_echo(' description'); ?>">
+
+            <?php /*
             <div style="float: left; padding: 15px;>
 
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -88,7 +90,7 @@ get_header(); ?>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             </div>
-           
+            */ ?>
        <?php
 if (in_category('reviews')):
 	if (get_field("pros") && get_field("cons") && get_field("conclusion")): ?>
@@ -131,7 +133,7 @@ endif; ?>
 endif; ?>    
 
             <?php the_content();?>
-
+            <?php /*
             <div style="text-align: center; padding: 10px">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- hdrguide2 -->
@@ -143,6 +145,7 @@ endif; ?>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             </div>
+            */ ?>
 
             </div>
             <?php the_tags( '<ul class="tags"><li>', '</li><li>', '</li></ul>'); ?>

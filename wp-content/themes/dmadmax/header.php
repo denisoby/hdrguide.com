@@ -37,14 +37,17 @@
     <div class="navbar navbar-inverse navbar-relative-top">
            <div class="navbar-inner">
              <div class="container">
-           <div style="float:left;">
-            <div style="float: left; padding: 10px 0;">
-                <a href="https://store.stuckincustoms.com/complete-hdr-tutorial?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="http://hdrguide.com/wp-content/uploads/2013/04/hdr-video-tutorial.jpg" width="300" height="250"/></a>
+            <div style="text-align: center; padding: 10px 0;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- HDR header -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:728px;height:90px"
+                     data-ad-client="ca-pub-0017098879698018"
+                     data-ad-slot="7362452153"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
-            <div style="float: left; padding: 10px 50px; width: 250px">
-                <a href="https://store.stuckincustoms.com/art-of-photography?acc=cfee398643cbc3dc5eefc89334cacdc1" target="_blank"><img src="https://store.stuckincustoms.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/store_ad_-_beginning_photography_tutorial.jpg"/></a>
-            </div>
-           </div>
            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>

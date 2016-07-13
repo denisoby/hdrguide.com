@@ -72,6 +72,17 @@
     <div class="row masthead">
     <div class="container">
       <a class="brand" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+      <div style="float: right">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- HDR header brand links -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:728px;height:15px"
+             data-ad-client="ca-pub-0017098879698018"
+             data-ad-slot="1036716952"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
     </div><!--/.container -->
   </div><!--/.row -->
   

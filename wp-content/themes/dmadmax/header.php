@@ -37,7 +37,7 @@
     <div class="navbar navbar-inverse navbar-relative-top">
            <div class="navbar-inner">
              <div class="container">
-            <div style="text-align: center; padding: 10px 0;">
+            <div style="text-align: center; padding: 50px 0;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- HDR header -->
                 <ins class="adsbygoogle"
